@@ -2,4 +2,4 @@
 
 Run step 1
 
-# cargo build
+@ cargo build
