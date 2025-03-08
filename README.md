@@ -22,18 +22,24 @@ past this
 [Unit]
 
 Description=LNURL-Pay Server
+
 After=network.target
 
 [Service]
 
 ExecStart=/usr/local/bin/lnurlp_server
+
 Restart=always
+
 User=root
+
 WorkingDirectory=/root/lnurl_pay
+
 
 [Install]
 
 WantedBy=multi-user.target
+
 #
 
 
