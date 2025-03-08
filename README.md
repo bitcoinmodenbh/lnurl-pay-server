@@ -19,7 +19,7 @@ Run this command for create service
 nano /etc/systemd/system/lnurlp_server.service
 
 past this 
-
+#
 [Unit]
 Description=LNURL-Pay Server
 After=network.target
@@ -32,7 +32,7 @@ WorkingDirectory=/root/lnurl_pay
 
 [Install]
 WantedBy=multi-user.target
-
+#
 
 
 
