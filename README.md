@@ -1,5 +1,11 @@
 # lnurl-pay-server
 
-Run step 1
+Run step first command
 
-@ cargo build
+cargo build
+
+Run step second command
+
+cargo run
+
+
