@@ -1,23 +1,22 @@
 # lnurl-pay-server
 
 Run step first command
-
+#
 cargo build
-
+#
 Run step second command
-
+#
 cargo run
-
-
+#
 move to /usr/local/bin
 
 
 
 
 Run this command for create service
-
+#
 nano /etc/systemd/system/lnurlp_server.service
-
+#
 past this 
 #
 [Unit]
