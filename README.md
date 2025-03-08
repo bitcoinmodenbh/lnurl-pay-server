@@ -37,7 +37,6 @@ WorkingDirectory=/root/lnurl_pay
 
 
 [Install]
-
 WantedBy=multi-user.target
 
 #
