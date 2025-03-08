@@ -10,3 +10,6 @@ cargo run
 
 
 move to /usr/local/bin
+
+
+create service
