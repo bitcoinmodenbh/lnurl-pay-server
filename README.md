@@ -9,3 +9,4 @@ Run step second command
 cargo run
 
 
+move to /usr/local/bin
