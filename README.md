@@ -4,7 +4,7 @@ Run step first command
 #
 cargo build
 #
-Run step second commandhttps://github.com/bitcoinmodenbh/lnurl-pay-server/blob/main/README.md
+Run step second command
 #
 cargo run
 #
