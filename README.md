@@ -49,13 +49,12 @@ press this key
 control+x
 #
 
-Add reverse Proxy Caddy
-#
-
-
-
 y
 
 #
 Enter
 #
+
+
+
+
