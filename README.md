@@ -14,6 +14,10 @@ sudo apt-get update
 sudo  apt-get install build-essential openssl libssl-dev
 
 ```
+```
+cd lnurl-pay-server
+```
+
 Run step first command
 
 ```
