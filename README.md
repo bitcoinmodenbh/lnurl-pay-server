@@ -14,7 +14,7 @@ sudo apt-get update
 sudo  apt-get install build-essential openssl libssl-dev
 
 ```
-# cd to directory
+cd to directory
 ```
 cd lnurl-pay-server
 ```
@@ -25,10 +25,11 @@ Run step first command
 cargo build --release
 
 ```
-
-Run step second command
-
-
+open your build directory
+```
+cd /lnurl-pay-server/target/release
+```
+Run step second command for move to /usr/local/bin
 
 ```
 mv lnurl_pay /usr/local/bin
