@@ -1,5 +1,18 @@
 lnurl-pay-server
 
+install rust
+
+```
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
+
+
+
+install openssl
+```
+sudo apt-get update
+sudo  apt-get install openssl libssl-dev
+```
 Run step first command
 
 ```
