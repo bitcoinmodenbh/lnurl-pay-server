@@ -19,17 +19,14 @@ nano /etc/systemd/system/lnurlp_server.service
 #
 past this 
 #
+```
 [Unit]
-
 Description=LNURL-Pay Server
-
 After=network.target
-
 [Service]
-
 ExecStart=/usr/local/bin/lnurlp_server
-
 Restart=always
+```
 
 User=root
 
