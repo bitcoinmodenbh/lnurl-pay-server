@@ -11,22 +11,22 @@ source $HOME/.cargo/env
 install openssl
 ```
 sudo apt-get update
-sudo  apt-get install openssl libssl-dev
+sudo  apt-get install build-essential openssl libssl-dev
+
 ```
 Run step first command
 
 ```
-cargo build
+cargo build --release
+
 ```
 
 Run step second command
 
-```
-cargo run
-```
+
 
 ```
-move to /usr/local/bin
+mv lnurl_pay /usr/local/bin
 
 ```
 
