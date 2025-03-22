@@ -129,4 +129,8 @@ reload and restart caddy
 sudo systemctl reload caddy
 sudo systemctl restart caddy
 ```
-
+#
+#
+everything is ready
+#
+#
