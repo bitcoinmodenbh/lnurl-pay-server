@@ -18,6 +18,19 @@ cd to directory
 ```
 cd lnurl-pay-server
 ```
+cd src  and edit main.rs
+```
+cd src 
+nano main.rs
+```
+
+past your info here
+```
+const DOMAIN: &str = ""; // Replace with your real domain
+const LND_URL: &str = ""; // Lightning REST API address
+const MACAROON_PATH: &str = ""; // Path to the macaroon file
+const TLS_CERT_PATH: &str = ""; // Path to the LND TLS certificate
+```
 
 Run step first command
 
