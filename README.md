@@ -31,6 +31,7 @@ const LND_URL: &str = ""; // Lightning REST API address
 const MACAROON_PATH: &str = ""; // Path to the macaroon file
 const TLS_CERT_PATH: &str = ""; // Path to the LND TLS certificate
 ```
+optional step change amount 
 
 Run step first command
 
