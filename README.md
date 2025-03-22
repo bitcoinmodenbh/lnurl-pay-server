@@ -85,6 +85,18 @@ sudo apt update
 sudo apt install -y caddy
 caddy version
 ```
+
+start && enable caddy
+```
+
+sudo systemctl start caddy
+
+sudo systemctl enable caddy
+
+sudo systemctl status caddy
+
+```
+
 get cert 
 ```
 apt-get install certbot -y
@@ -98,10 +110,10 @@ yourdomain.com {
     reverse_proxy 127.0.0.1:8000
 }
 ```
+reload and restart caddy
 
-start && enable caddy
-
-
-
-
+```
+sudo systemctl reload caddy
+sudo systemctl restart caddy
+```
 
