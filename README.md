@@ -75,6 +75,8 @@ Enter
 
 ```
 
+install caddy
+
 ```
 sudo apt install -y debian-keyring debian-archive-keyring apt-transport-https
 curl -1sLf 'https://dl.cloudsmith.io/public/caddy/stable/gpg.key' | sudo gpg --dearmor -o /usr/share/keyrings/caddy-stable-archive-keyring.gpg
@@ -83,6 +85,12 @@ sudo apt update
 sudo apt install -y caddy
 caddy version
 ```
+get cert 
+```
+apt-get install certbot -y
+certbot certonly --standalone --agree-tos --register-unsafely-without-email -d yourdomain.com
+```
+edit caddy
 
 ```
 yourdomain.com {
@@ -90,3 +98,10 @@ yourdomain.com {
     reverse_proxy 127.0.0.1:8000
 }
 ```
+
+start && enable caddy
+
+
+
+
+
