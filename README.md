@@ -103,12 +103,25 @@ apt-get install certbot -y
 certbot certonly --standalone --agree-tos --register-unsafely-without-email -d yourdomain.com
 ```
 edit caddy
+```sudo nano /etc/caddy/Caddyfile```
 
 ```
 yourdomain.com {
     tls /etc/letsencrypt/live/yourdomain.com/fullchain.pem /etc/letsencrypt/live/yourdomain.com/privkey.pem
     reverse_proxy 127.0.0.1:8000
 }
+```
+press this key 
+```
+control+x
+
+
+y
+
+
+Enter
+
+
 ```
 reload and restart caddy
 
